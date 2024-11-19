@@ -1,0 +1,68 @@
+* {
+    margin: 0px;   
+   padding: 0px;
+   box-sizing: border-box;
+   }
+   
+   .container-anime {
+   display: flex;
+   justify-content: space-between;
+    height: 50vh;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.233);
+    margin: 25vh auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.76);
+   
+   
+   }
+   
+   .container-items {
+   position: absolute;   
+   display: flex;
+   width: 50vw;
+   height: 50vh;
+   
+   
+   
+   }
+   
+   .item {
+   width: 50vw;
+   height: 50vh;
+   transition: all 1s;
+   
+   }
+   
+   .item:first-child{
+    margin-left: -100%;    
+   
+   }
+   
+   .item img {
+   width: 50vw;
+   height: 50vh;
+   
+   }
+   
+   .action-button {
+   display: flex;
+   margin: 10px;
+   width: 25px;
+   justify-content: center;
+   align-items: center;
+   font-size: 2em;
+   z-index: 1;
+   color: #00000000;
+   user-select: none;
+    
+   }
+   
+   .action-button:hover {
+     color: white;
+     background-color: rgba(0, 0, 0, 0.432);
+     border-radius: 10px;
+     cursor: pointer;
+     transition: all 0.5s;
+   }
+   
